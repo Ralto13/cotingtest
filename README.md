@@ -280,8 +280,3 @@ root.printTree();
 //   Child 2
 
 ```
-
-#### 
-### sort binary search
-### DFS BFS
-### DP
