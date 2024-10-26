@@ -14,3 +14,4 @@ let {[mockResponse.data]: data = '기본값' } = {
 }
 
 console.log(data) //성공했습니다
+```
