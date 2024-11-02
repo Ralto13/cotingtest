@@ -1,5 +1,14 @@
 # javascript cheatsheet
 
+## 형변환
+```javascript
+parseInt('01230'); //1230
+Number('01230'); //1230
+
+parseInt(''); //NaN parseInt는 빈문자열 처리를 못함
+Number(''); //0
+```
+
 ## 연산자
 ```javascript
 //falsy
@@ -18,41 +27,12 @@ console.log(false && "aaa") // false
 console.log(true || "aaa") // true 
 console.log(false || "aaa") // "aaa"
 // 앞선 값이 참이면 바로 반환, 거짓이면 뒤따른 값을 반환합니다.
-
-
-```
-
-## string
-```javascript
-const str = 'Hello';
-str.length
-// 5
-str.charAt(0)
-// H
-str.indexOf('ll')
-// 2
-str.replace(/ll/,'tt')
-// Hetto
-str.split('')
-// [ 'H', 'e', 'l', 'l', 'o' ]
-str.repeat(2)
-// HelloHello
-str.padStart(10); //
-'     Hello'
-str.padEnd(10); //
-'Hello     '
 ```
 
 ## array
 
 ```javascript
-// 기본값 0, 
-let arr = [1, 2, 3, 4];
-let sum = arr.reduce((acc, num) => acc + num, 0);  // 10
-
-// 1값을 가진 5개의 인덱스 배열 리턴
-Array(5).fill(1);
-
+Array(5).fill(1); // 1값을 가진 5개의 인덱스 배열 리턴
 ```
 
 ## Destructuring assignment
