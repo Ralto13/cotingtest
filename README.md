@@ -1,1 +1,1 @@
-# JS 연습
+# JS codingtest
